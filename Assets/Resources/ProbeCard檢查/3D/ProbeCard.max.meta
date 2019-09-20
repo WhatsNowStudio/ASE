@@ -8,25 +8,36 @@ ModelImporter:
     100004: ProbeCard_Base
     100006: Transistor
     100008: Resistance
+    100010: PBCBox
+    100012: PBC
     400000: Box002
     400002: //RootNode
     400004: ProbeCard_Base
     400006: Transistor
     400008: Resistance
+    400010: PBCBox
+    400012: PBC
     2100000: 'Material #36'
     2100002: No Name
+    2100004: 'Material #38'
     2300000: Box002
     2300002: ProbeCard_Base
     2300004: Transistor
     2300006: Resistance
+    2300008: PBCBox
+    2300010: PBC
     3300000: Box002
     3300002: ProbeCard_Base
     3300004: Transistor
     3300006: Resistance
+    3300008: PBCBox
+    3300010: PBC
     4300000: ProbeCard_Base
     4300002: Box002
     4300004: Transistor
     4300006: Resistance
+    4300008: PBCBox
+    4300010: PBC
   externalObjects: {}
   materials:
     importMaterials: 1
