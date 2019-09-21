@@ -97,8 +97,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 208
-        y: 224
+        x: 199
+        y: 125
         width: 100
         height: 32
       isBreakpoint: 0
@@ -165,8 +165,8 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - Go
         - 
+        - Go
         - 
         - 
         byteData: 01
@@ -193,8 +193,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 356
-        y: 236
+        x: 353
+        y: 142
         width: 100
         height: 16
       isBreakpoint: 0

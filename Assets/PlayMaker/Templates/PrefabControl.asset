@@ -27,19 +27,11 @@ MonoBehaviour:
         x: 57
         y: 108
         width: 100
-        height: 32
+        height: 16
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: "\u57F7\u884C\u6E2C\u8A66"
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
+      transitions: []
       actionData:
         actionNames: []
         customNames: []
@@ -84,8 +76,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 57
-        y: 187
+        x: 63
+        y: 232
         width: 102.8
         height: 32
       isBreakpoint: 0
@@ -297,8 +289,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 212
-        y: 112
+        x: 225
+        y: 232
         width: 100
         height: 16
       isBreakpoint: 0
@@ -394,8 +386,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 58
-        y: 237
+        x: 64
+        y: 282
         width: 102
         height: 16
       isBreakpoint: 0
@@ -491,8 +483,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 221
-        y: 237
+        x: 373
+        y: 229
         width: 100
         height: 16
       isBreakpoint: 0
