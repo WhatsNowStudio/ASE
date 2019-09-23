@@ -34,7 +34,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 2
+      value: 0
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
