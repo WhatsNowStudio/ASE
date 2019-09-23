@@ -203,7 +203,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 000001
+        actionIsOpen: 000101
         actionStartIndex: 000000000300000010000000
         actionHashCodes: 32d5940227ffbc035e69bb04
         unityObjectParams: []
@@ -1004,6 +1004,9 @@ MonoBehaviour:
     - name: FINISHED
       isSystemEvent: 1
       isGlobal: 0
+    - name: Click
+      isSystemEvent: 0
+      isGlobal: 1
     - name: Continue
       isSystemEvent: 0
       isGlobal: 0
@@ -1027,9 +1030,9 @@ MonoBehaviour:
       isGlobal: 0
     globalTransitions:
     - fsmEvent:
-        name: Continue
+        name: Click
         isSystemEvent: 0
-        isGlobal: 0
+        isGlobal: 1
       toState: "\u7E7C\u7E8C\u64A5\u653E"
       linkStyle: 0
       linkConstraint: 0
