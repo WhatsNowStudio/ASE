@@ -24,17 +24,17 @@ MonoBehaviour:
       networkSync: 0
       value: 
     - useVariable: 1
-      name: Gstring/Mode
-      tooltip: 
-      showInInspector: 0
-      networkSync: 0
-      value: 
-    - useVariable: 1
       name: Gstring/Type
       tooltip: 
       showInInspector: 0
       networkSync: 0
       value: 
+    - useVariable: 1
+      name: Gstring/LessonSelect
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 2
     vector2Variables: []
     vector3Variables: []
     colorVariables: []
@@ -77,3 +77,6 @@ MonoBehaviour:
   - Pass
   - ButtonProcessDone
   - Process2
+  - MidMouse
+  - Up
+  - Rest
