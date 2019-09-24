@@ -4920,8 +4920,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: "\u8ACB\u627E\u51FA\u6B64Probe Card(\u63A2\u91DD\u5361)\u4E0A\u7570\u5E38\u7684\u5143\u4EF6\u3002\u8ACB\u627E\u51FA\u6B64Probe
-            Card(\u63A2\u91DD\u5361)\u4E0A\u7570\u5E38\u7684\u5143\u4EF6,\u5B8C\u6210\u5F8C\u6309\u4E0B\u4E0B\u4E00\u6B65"
+          value: "\u8ACB\u627E\u51FA\u6B64Probe Card(\u63A2\u91DD\u5361)\u4E0A\u7570\u5E38\u7684\u5143\u4EF6\u3002"
         fsmObjectParams:
         - useVariable: 1
           name: 
@@ -6395,19 +6394,11 @@ MonoBehaviour:
         x: 595
         y: 321
         width: 100
-        height: 32
+        height: 16
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: "\u901A\u95DC?"
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
+      transitions: []
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.StringReplace
@@ -6486,19 +6477,11 @@ MonoBehaviour:
         x: 590.5
         y: 365
         width: 100
-        height: 32
+        height: 16
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: "\u901A\u95DC?"
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
+      transitions: []
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.StringReplace
@@ -6577,19 +6560,11 @@ MonoBehaviour:
         x: 591.5
         y: 413
         width: 100
-        height: 32
+        height: 16
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: "\u901A\u95DC?"
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
+      transitions: []
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.StringReplace
@@ -6665,22 +6640,14 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 744
-        y: 383
+        x: 619
+        y: 112
         width: 100
-        height: 32
+        height: 16
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: Go
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: "\u901A\u95DC"
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
+      transitions: []
       actionData:
         actionNames:
         - HutongGames.PlayMaker.Actions.StringCompare
@@ -6731,7 +6698,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - Go
+        - Y
         - 
         byteData: 00
         arrayParamSizes: 
@@ -6753,8 +6720,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 745
-        y: 439
+        x: 618
+        y: 180.00781
         width: 100
         height: 16
       isBreakpoint: 0
@@ -6875,6 +6842,9 @@ MonoBehaviour:
     - name: 2
       isSystemEvent: 0
       isGlobal: 0
+    - name: Click
+      isSystemEvent: 0
+      isGlobal: 1
     - name: Done
       isSystemEvent: 0
       isGlobal: 0
@@ -6896,6 +6866,9 @@ MonoBehaviour:
     - name: Process
       isSystemEvent: 0
       isGlobal: 1
+    - name: Y
+      isSystemEvent: 0
+      isGlobal: 0
     globalTransitions:
     - fsmEvent:
         name: Process
@@ -6910,6 +6883,14 @@ MonoBehaviour:
         isSystemEvent: 0
         isGlobal: 1
       toState: "\u63A5\u6536\u89E3\u7B54"
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: Click
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: "\u901A\u95DC?"
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0

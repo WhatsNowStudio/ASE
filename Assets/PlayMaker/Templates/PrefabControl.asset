@@ -483,8 +483,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 373
-        y: 245
+        x: 415
+        y: 137
         width: 100
         height: 16
       isBreakpoint: 0
@@ -563,7 +563,7 @@ MonoBehaviour:
           name: 2
           isSystemEvent: 0
           isGlobal: 0
-        toState: "\u57F7\u884C\u6A21\u64EC"
+        toState: "\u57F7\u884C\u6E2C\u8A66"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
