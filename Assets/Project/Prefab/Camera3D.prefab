@@ -2126,33 +2126,19 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.SetGameObject
         - HutongGames.PlayMaker.Actions.GetOwner
         - HutongGames.PlayMaker.Actions.NextFrameEventAdvance
         customNames:
         - 
         - 
-        - 
-        actionEnabled: 010101
-        actionIsOpen: 010101
-        actionStartIndex: 000000000300000004000000
-        actionHashCodes: 4d51cf045c00450566e6a403
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000001000000
+        actionHashCodes: 5c00450566e6a403
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
-          name: GObj/MainCamera/Camera
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 1884283313365390993}
-        - useVariable: 1
-          name: GObj/MainCamera/All
+          name: Gobj/CameraNow
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -2185,21 +2171,18 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - Go
-        byteData: 00
+        byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 130000001300000001000000130000001000000017000000
+        paramDataType: 130000001000000017000000
         paramName:
-        - variable
-        - gameObject
-        - everyFrame
         - storeGameObject
         - frameCount
         - sendEvent
-        paramDataPos: 000000000100000000000000020000000000000000000000
-        paramByteDataSize: 000000000000000001000000000000000000000000000000
+        paramDataPos: 000000000000000000000000
+        paramByteDataSize: 000000000000000000000000
     - name: "\u5075\u6E2C\u624B\u6307"
       description: 
       colorIndex: 2
@@ -3324,8 +3307,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 64
-        y: 194
+        x: 65
+        y: 191
         width: 100
         height: 16
       isBreakpoint: 0
@@ -3376,7 +3359,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 202
+        x: 218
         y: 197
         width: 111
         height: 32
@@ -3457,7 +3440,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 393.77344
+        x: 409.77344
         y: 196.96875
         width: 118.5
         height: 48
@@ -3625,7 +3608,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 385.3828
+        x: 401.3828
         y: 109.21094
         width: 135
         height: 32
@@ -3737,7 +3720,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 392.53125
+        x: 408.53125
         y: 291.92188
         width: 131
         height: 32
@@ -3859,7 +3842,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 591
+        x: 607
         y: 216
         width: 100
         height: 48
@@ -3941,7 +3924,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 203.85156
+        x: 219.85156
         y: 431.66406
         width: 100
         height: 32
@@ -4034,7 +4017,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 347.59375
+        x: 363.59375
         y: 449.22656
         width: 100
         height: 48
@@ -4116,7 +4099,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 507.8203
+        x: 523.8203
         y: 430.9922
         width: 149.2
         height: 32
@@ -4228,7 +4211,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 510.10156
+        x: 526.10156
         y: 496.29688
         width: 144.4
         height: 32
@@ -4350,7 +4333,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 722.71094
+        x: 738.71094
         y: 473.625
         width: 100
         height: 16
@@ -4397,6 +4380,106 @@ MonoBehaviour:
         paramName: []
         paramDataPos: 
         paramByteDataSize: 
+    - name: "\u56DE\u5230\u4E2D\u9593"
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 69
+        y: 272
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.MoveTowards
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 00
+        actionStartIndex: 00000000
+        actionHashCodes: fa0e5402
+        unityObjectParams: []
+        fsmGameObjectParams:
+        - useVariable: 1
+          name: Obj/Center
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: {fileID: 8392683241150003812}
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Obj/ZoomMove
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 1884283313365390993}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 20
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {x: 0, y: 0, z: 0}
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 14000000130000001c000000110000000f0000000f00000017000000
+        paramName:
+        - gameObject
+        - targetObject
+        - targetPosition
+        - ignoreVertical
+        - maxSpeed
+        - finishDistance
+        - finishEvent
+        paramDataPos: 00000000000000000000000000000000000000000100000000000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -4422,7 +4505,16 @@ MonoBehaviour:
     - name: Process2
       isSystemEvent: 0
       isGlobal: 1
+    - name: Reset
+      isSystemEvent: 0
+      isGlobal: 1
     - name: Rest
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: TurnOff
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: TurnOn
       isSystemEvent: 0
       isGlobal: 1
     - name: Y
@@ -4450,6 +4542,14 @@ MonoBehaviour:
         isSystemEvent: 0
         isGlobal: 1
       toState: "\u53D6\u5F97\u901F\u5EA6"
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: Reset
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: "\u56DE\u5230\u4E2D\u9593"
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
@@ -4500,6 +4600,12 @@ MonoBehaviour:
         showInInspector: 1
         networkSync: 0
         value: {fileID: 1884283313365390993}
+      - useVariable: 1
+        name: Obj/Center
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: {fileID: 8392683241150003812}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -4507,7 +4613,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0

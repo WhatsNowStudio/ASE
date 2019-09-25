@@ -138,3 +138,5 @@ MonoBehaviour:
   - Open
   - Close
   - TurnOff
+  - Reset
+  - NoPass
