@@ -105,13 +105,13 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: 
+          name: Gfloat/FSX
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: 
+          name: Gfloat/FSY
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -220,7 +220,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 0001010200000001
+        byteData: 0101010200000001
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
