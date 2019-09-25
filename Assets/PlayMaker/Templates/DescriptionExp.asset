@@ -25,7 +25,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 61.351562
-        y: 117.03906
+        y: 149.03906
         width: 100
         height: 16
       isBreakpoint: 0
@@ -85,8 +85,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 219
-        y: 113
+        x: 226
+        y: 114
         width: 110.4
         height: 32
       isBreakpoint: 0
@@ -171,7 +171,7 @@ MonoBehaviour:
             ownerOption: 1
             gameObject:
               useVariable: 1
-              name: Gobj/Canvas
+              name: Gobj/CameraNow
               tooltip: 
               showInInspector: 0
               networkSync: 0
@@ -336,8 +336,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 378.57812
-        y: 114.85156
+        x: 385.57812
+        y: 115.85156
         width: 100
         height: 16
       isBreakpoint: 0
@@ -433,8 +433,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 205.70312
-        y: 232
+        x: 212.70312
+        y: 233
         width: 116.4
         height: 32
       isBreakpoint: 0
@@ -445,7 +445,7 @@ MonoBehaviour:
           name: Go
           isSystemEvent: 0
           isGlobal: 0
-        toState: State 1
+        toState: "-\u5F97\u7B2C\u4E00\u6B21\u6307\u8DDD"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -517,7 +517,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 201.92188
-        y: 319.03906
+        y: 351.03906
         width: 121.6
         height: 48
       isBreakpoint: 0
@@ -616,7 +616,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 593.5
-        y: 585.1875
+        y: 617.1875
         width: 110
         height: 64
       isBreakpoint: 0
@@ -746,7 +746,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 781.5
-        y: 397.1875
+        y: 429.1875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -911,7 +911,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 779.5
-        y: 624.1875
+        y: 656.1875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1101,7 +1101,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 424.5
-        y: 488.1875
+        y: 520.1875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1250,7 +1250,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 422.5
-        y: 553.1875
+        y: 585.1875
         width: 100
         height: 48
       isBreakpoint: 0
@@ -1374,7 +1374,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 778.5
-        y: 685.1875
+        y: 717.1875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1451,7 +1451,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 429
-        y: 321.1875
+        y: 353.1875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1582,7 +1582,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 427
-        y: 386.1875
+        y: 418.1875
         width: 100
         height: 48
       isBreakpoint: 0
@@ -1706,7 +1706,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 593
-        y: 406.1875
+        y: 438.1875
         width: 110
         height: 64
       isBreakpoint: 0
@@ -1836,7 +1836,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 786.5
-        y: 477.1875
+        y: 509.1875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -2003,7 +2003,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 941.21875
-        y: 570.28906
+        y: 602.28906
         width: 102
         height: 16
       isBreakpoint: 0
@@ -2094,58 +2094,6 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 00000000000000000000000000000000
         paramByteDataSize: 00000000000000000000000001000000
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 401
-        y: 248
-        width: 100
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -2281,7 +2229,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0

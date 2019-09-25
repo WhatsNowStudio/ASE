@@ -3552,7 +3552,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 300
+          value: 90
         - useVariable: 1
           name: Speed
           tooltip: 
@@ -3564,13 +3564,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: -0.25
+          value: -0.1
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.25
+          value: 0.1
         - useVariable: 0
           name: 
           tooltip: 
