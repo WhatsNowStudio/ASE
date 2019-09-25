@@ -193,7 +193,13 @@ MonoBehaviour:
         value: 0
       intVariables: []
       boolVariables: []
-      stringVariables: []
+      stringVariables:
+      - useVariable: 1
+        name: String/Mode
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -207,7 +213,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000
+      variableCategoryIDs: 0000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -344,10 +350,46 @@ MonoBehaviour:
     events: []
     globalTransitions: []
     variables:
-      floatVariables: []
+      floatVariables:
+      - useVariable: 1
+        name: Float/FD1
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Float/Percentage
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Float/Public
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: Float/Time
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
       intVariables: []
-      boolVariables: []
-      stringVariables: []
+      boolVariables:
+      - useVariable: 1
+        name: Bool/Open
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      stringVariables:
+      - useVariable: 1
+        name: String/AnimationName
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: Description
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -361,7 +403,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 
+      variableCategoryIDs: 000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -376,7 +418,7 @@ MonoBehaviour:
     RestartOnEnable: 1
     EnableDebugFlow: 0
     EnableBreakpoints: 1
-    editorFlags: 1
+    editorFlags: 3
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
