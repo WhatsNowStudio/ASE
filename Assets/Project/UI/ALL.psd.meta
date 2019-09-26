@@ -17,6 +17,7 @@ TextureImporter:
     21300024: ALL_10
     21300026: ALL_11
     21300028: ALL_12
+    21300030: ALL_13
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -398,13 +399,33 @@ TextureImporter:
         width: 195
         height: 195
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: ec15c2afb1822284897bd983f63896ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ALL_13
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 976
+        width: 195
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c7362877ea6f149938ff689f06c8cf
       vertices: []
       indices: 
       edges: []
