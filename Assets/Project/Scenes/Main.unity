@@ -2173,16 +2173,6 @@ PrefabInstance:
       propertyPath: fsm.variables.gameObjectVariables.Array.data[9].value
       value: 
       objectReference: {fileID: 1630201615}
-    - target: {fileID: 6284416580945145101, guid: 3c46cbfc3bb93e646a9383d52aaf27f6,
-        type: 3}
-      propertyPath: fsm.states.Array.data[4].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.name
-      value: Obj/Button/Now
-      objectReference: {fileID: 0}
-    - target: {fileID: 6284416580945145101, guid: 3c46cbfc3bb93e646a9383d52aaf27f6,
-        type: 3}
-      propertyPath: fsm.states.Array.data[4].actionData.fsmOwnerDefaultParams.Array.data[1].gameObject.name
-      value: Obj/Button/Now
-      objectReference: {fileID: 0}
     - target: {fileID: 995006789, guid: 3c46cbfc3bb93e646a9383d52aaf27f6, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
@@ -2202,6 +2192,11 @@ PrefabInstance:
     - target: {fileID: 995006789, guid: 3c46cbfc3bb93e646a9383d52aaf27f6, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 479654917831024694, guid: 3c46cbfc3bb93e646a9383d52aaf27f6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.00012207031
       objectReference: {fileID: 0}
     - target: {fileID: 7834059373056078975, guid: 3c46cbfc3bb93e646a9383d52aaf27f6,
         type: 3}
