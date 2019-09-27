@@ -4888,8 +4888,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 221
-        y: 102.99219
+        x: 220
+        y: 399.9922
         width: 102
         height: 32
       isBreakpoint: 0
@@ -4900,7 +4900,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: "\u5E03\u7F6E\u96FB\u6676\u9AD4"
+        toState: "\u6253\u958BTEST"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -4950,7 +4950,7 @@ MonoBehaviour:
             ownerOption: 1
             gameObject:
               useVariable: 1
-              name: 
+              name: Gobj/Canvas
               tooltip: 
               showInInspector: 0
               networkSync: 0
@@ -5127,8 +5127,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 224
-        y: 450
+        x: 220
+        y: 490
         width: 104.4
         height: 16
       isBreakpoint: 0
@@ -5234,8 +5234,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 230
-        y: 182
+        x: 223
+        y: 123
         width: 100
         height: 32
       isBreakpoint: 0
@@ -5403,8 +5403,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 220.5
-        y: 256
+        x: 213.5
+        y: 214
         width: 100
         height: 32
       isBreakpoint: 0
@@ -5572,8 +5572,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 224.5
-        y: 360
+        x: 217.5
+        y: 301
         width: 100
         height: 32
       isBreakpoint: 0
@@ -5581,10 +5581,10 @@ MonoBehaviour:
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
+          name: Go
+          isSystemEvent: 0
           isGlobal: 0
-        toState: "\u6253\u958BTEST"
+        toState: "\u547C\u53EB\u8AAA\u660E\u8996\u7A97"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -5594,15 +5594,17 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.SetParent
         - HutongGames.PlayMaker.Actions.SetParent
         - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.Wait
         customNames:
         - 
         - 
         - 
         - 
-        actionEnabled: 01010101
-        actionIsOpen: 01010101
-        actionStartIndex: 0000000002000000060000000a000000
-        actionHashCodes: d97b7202ea32a105ea32a105b2cf1000
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 0000000002000000060000000a0000000f000000
+        actionHashCodes: d97b7202ea32a105ea32a105b2cf100048c01101
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -5667,7 +5669,13 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -5711,13 +5719,14 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
-        byteData: 0000
+        stringParams:
+        - Go
+        byteData: 000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001300000014000000130000001100000011000000140000001300000011000000110000001400000011000000110000000100000001000000
+        paramDataType: 1400000013000000140000001300000011000000110000001400000013000000110000001100000014000000110000001100000001000000010000000f0000001700000001000000
         paramName:
         - gameObject
         - storeResult
@@ -5734,8 +5743,11 @@ MonoBehaviour:
         - recursive
         - resetOnExit
         - everyFrame
-        paramDataPos: 000000000000000001000000010000000000000001000000020000000200000002000000030000000300000004000000050000000000000001000000
-        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000001000000
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 000000000000000001000000010000000000000001000000020000000200000002000000030000000300000004000000050000000000000001000000000000000000000002000000
+        paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000001000000000000000000000001000000
     - name: "\u63A5\u6536\u89E3\u7B54"
       description: 
       colorIndex: 0
@@ -6832,7 +6844,7 @@ MonoBehaviour:
             ownerOption: 1
             gameObject:
               useVariable: 1
-              name: 
+              name: Gobj/Canvas
               tooltip: 
               showInInspector: 0
               networkSync: 0
@@ -7149,14 +7161,6 @@ MonoBehaviour:
       isGlobal: 0
     globalTransitions:
     - fsmEvent:
-        name: Process
-        isSystemEvent: 0
-        isGlobal: 1
-      toState: "\u547C\u53EB\u8AAA\u660E\u8996\u7A97"
-      linkStyle: 0
-      linkConstraint: 0
-      colorIndex: 0
-    - fsmEvent:
         name: Press
         isSystemEvent: 0
         isGlobal: 1
@@ -7169,6 +7173,14 @@ MonoBehaviour:
         isSystemEvent: 0
         isGlobal: 1
       toState: "\u901A\u95DC?"
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: Process
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: "\u5E03\u7F6E\u96FB\u6676\u9AD4"
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
