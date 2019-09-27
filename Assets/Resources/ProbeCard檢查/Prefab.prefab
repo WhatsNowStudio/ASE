@@ -4978,7 +4978,8 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: "\u8ACB\u627E\u51FA\u6B64Probe Card(\u63A2\u91DD\u5361)\u4E0A\u7570\u5E38\u7684\u5143\u4EF6\u3002"
+          value: "\u8ACB\u627E\u51FA\u6B64\u63A2\u91DD\u5361\u4E0A\u6240\u6709\u7570\u5E38\u5143\u4EF6\u3002
+            \u5B8C\u6210\u5F8C\u6309\u4E0B\u4E0B\u4E00\u6B65"
         fsmObjectParams:
         - useVariable: 1
           name: 
