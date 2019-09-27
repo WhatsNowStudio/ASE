@@ -1063,8 +1063,8 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 424.5
-        y: 680.1875
+        x: 400.5
+        y: 794.1875
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1081,47 +1081,17 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.FloatOperator
-        - HutongGames.PlayMaker.Actions.FloatSubtract
-        - HutongGames.PlayMaker.Actions.SampleCurve
         - HutongGames.PlayMaker.Actions.NextFrameEvent
         customNames:
         - 
-        - 
-        - 
-        - 
-        actionEnabled: 01010101
-        actionIsOpen: 01010101
-        actionStartIndex: 0000000005000000090000000d000000
-        actionHashCodes: 0cdb04052a6e8a008a39b90388611604
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 88611604
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
-        animationCurveParams:
-        - curve:
-            serializedVersion: 2
-            m_Curve:
-            - serializedVersion: 3
-              time: 0
-              value: 0
-              inSlope: 2
-              outSlope: 2
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0.33333334
-              outWeight: 0.33333334
-            - serializedVersion: 3
-              time: 1
-              value: 1
-              inSlope: 0
-              outSlope: 0
-              tangentMode: 0
-              weightedMode: 0
-              inWeight: 0.33333334
-              outWeight: 0.33333334
-            m_PreInfinity: 2
-            m_PostInfinity: 2
-            m_RotationOrder: 4
+        animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams: []
@@ -1132,49 +1102,7 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams:
-        - useVariable: 1
-          name: Gfloat/FD
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: Float/FD1
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: Float/Public
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: Float/Public
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 1
-        - useVariable: 1
-          name: Float/Public
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: Float/Percentage
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
+        fsmFloatParams: []
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -1184,36 +1112,23 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - Go
-        byteData: 0300000000000000
+        byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 0f0000000f000000070000000f000000010000000f0000000f0000000100000001000000160000000f0000000f0000000100000017000000
+        paramDataType: 17000000
         paramName:
-        - float1
-        - float2
-        - operation
-        - storeResult
-        - everyFrame
-        - floatVariable
-        - subtract
-        - everyFrame
-        - perSecond
-        - curve
-        - sampleAt
-        - storeValue
-        - everyFrame
         - sendEvent
-        paramDataPos: 0000000001000000000000000200000004000000030000000400000005000000060000000000000005000000060000000700000000000000
-        paramByteDataSize: 0000000000000000040000000000000001000000000000000000000001000000010000000000000000000000000000000100000000000000
+        paramDataPos: 00000000
+        paramByteDataSize: 00000000
     - name: "\u8A08\u7B97\u958B-"
       description: "#\u5075\u6E2C\u624B\u6307"
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 422.5
-        y: 745.1875
+        x: 398.5
+        y: 859.1875
         width: 100
         height: 48
       isBreakpoint: 0
@@ -1453,19 +1368,19 @@ MonoBehaviour:
               time: 0
               value: 0
               inSlope: 0.163522
-              outSlope: 0.163522
-              tangentMode: 0
+              outSlope: 1
+              tangentMode: 69
               weightedMode: 0
               inWeight: 0.33333334
               outWeight: 0.33333334
             - serializedVersion: 3
-              time: 0.99902344
-              value: 1.0020065
-              inSlope: 2.762025
-              outSlope: 2.762025
-              tangentMode: 0
+              time: 1
+              value: 1
+              inSlope: 1
+              outSlope: 1.4715332
+              tangentMode: 69
               weightedMode: 0
-              inWeight: 0.33333334
+              inWeight: 0.054484665
               outWeight: 0.33333334
             m_PreInfinity: 2
             m_PostInfinity: 2
@@ -2204,7 +2119,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101
-        actionIsOpen: 0000
+        actionIsOpen: 0100
         actionStartIndex: 000000000d000000
         actionHashCodes: 27ffbc035e69bb04
         unityObjectParams: []
@@ -2260,7 +2175,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: "\u96D9\u6307\u7E2E\u653E\u53EF\u7206\u70B8\u6A5F\u53F0,\u7D50\u675F\u9AD4\u9A57\u53EF\u6309\u4E0B\u4E00\u6B65\u6216\u4E0A\u65B9\u8FD4\u56DE"
+          value: "\u96D9\u6307\u7E2E\u653E:\u7206\u70B8\u6A5F\u53F0  \u7D50\u675F:\u6309\u4E0B\u4E00\u6B65\u6216\u5DE6\u4E0B\u89D2\u8FD4\u56DE"
         fsmObjectParams:
         - useVariable: 1
           name: 
