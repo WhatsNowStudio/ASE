@@ -16,6 +16,7 @@ ModelImporter:
     100020: TapB
     100022: TapC
     100024: TapD
+    100026: TransistorBAD
     400000: Box002
     400002: PBC
     400004: PBCBox
@@ -29,6 +30,7 @@ ModelImporter:
     400020: TapB
     400022: TapC
     400024: TapD
+    400026: TransistorBAD
     2100000: 'Material #36'
     2100002: No Name
     2300000: Box002
@@ -43,6 +45,7 @@ ModelImporter:
     2300018: TapB
     2300020: TapC
     2300022: TapD
+    2300024: TransistorBAD
     3300000: Box002
     3300002: PBC
     3300004: PBCBox
@@ -55,6 +58,7 @@ ModelImporter:
     3300018: TapB
     3300020: TapC
     3300022: TapD
+    3300024: TransistorBAD
     4300000: ProbeCard_Base
     4300002: Box002
     4300004: Transistor
@@ -67,6 +71,7 @@ ModelImporter:
     4300018: TapB
     4300020: TapC
     4300022: TapD
+    4300024: TransistorBAD
   externalObjects: {}
   materials:
     importMaterials: 1
