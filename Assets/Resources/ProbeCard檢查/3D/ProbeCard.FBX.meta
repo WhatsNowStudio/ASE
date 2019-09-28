@@ -10,6 +10,12 @@ ModelImporter:
     100008: ProbeCard_Base
     100010: Resistance
     100012: Transistor
+    100014: Cover
+    100016: Tap
+    100018: TapA
+    100020: TapB
+    100022: TapC
+    100024: TapD
     400000: Box002
     400002: PBC
     400004: PBCBox
@@ -17,6 +23,12 @@ ModelImporter:
     400008: ProbeCard_Base
     400010: Resistance
     400012: Transistor
+    400014: Cover
+    400016: Tap
+    400018: TapA
+    400020: TapB
+    400022: TapC
+    400024: TapD
     2100000: 'Material #36'
     2100002: No Name
     2300000: Box002
@@ -25,18 +37,36 @@ ModelImporter:
     2300006: ProbeCard_Base
     2300008: Resistance
     2300010: Transistor
+    2300012: Cover
+    2300014: Tap
+    2300016: TapA
+    2300018: TapB
+    2300020: TapC
+    2300022: TapD
     3300000: Box002
     3300002: PBC
     3300004: PBCBox
     3300006: ProbeCard_Base
     3300008: Resistance
     3300010: Transistor
+    3300012: Cover
+    3300014: Tap
+    3300016: TapA
+    3300018: TapB
+    3300020: TapC
+    3300022: TapD
     4300000: ProbeCard_Base
     4300002: Box002
     4300004: Transistor
     4300006: Resistance
     4300008: PBCBox
     4300010: PBC
+    4300012: Cover
+    4300014: Tap
+    4300016: TapA
+    4300018: TapB
+    4300020: TapC
+    4300022: TapD
   externalObjects: {}
   materials:
     importMaterials: 1
