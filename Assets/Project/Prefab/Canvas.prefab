@@ -661,7 +661,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000010408979, y: 0.00010351366}
+  m_AnchoredPosition: {x: -0.000010408979, y: -0.000012496302}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &540586806
@@ -4155,10 +4155,10 @@ RectTransform:
   m_Father: {fileID: 5137242315955609127}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 480, y: -44.2}
+  m_SizeDelta: {x: 283.33334, y: 88.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4161329674457961939
 CanvasRenderer:
@@ -4419,83 +4419,6 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 11400000, guid: f51e287c76ee9134bb29b4662090c47c, type: 2}
   eventHandlerComponentsAdded: 1
---- !u!1 &1482181974579679549
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 20179561553210522}
-  - component: {fileID: 6103623250538747984}
-  - component: {fileID: 3917716129836896957}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &20179561553210522
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1482181974579679549}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3757256010701225454}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &6103623250538747984
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1482181974579679549}
-  m_CullTransparentMesh: 0
---- !u!114 &3917716129836896957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1482181974579679549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 45
-    m_FontStyle: 0
-    m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 45
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "\u8ACB\u9078\u64C7\u4E00\u500B\u5206\u985E\u4EE5\u958B\u59CB"
 --- !u!1 &1682237023122100246
 GameObject:
   m_ObjectHideFlags: 0
@@ -5114,10 +5037,10 @@ RectTransform:
   m_Father: {fileID: 5137242315955609127}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 171.66667, y: -44.2}
+  m_SizeDelta: {x: 283.33334, y: 88.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8374086776143039290
 CanvasRenderer:
@@ -5522,6 +5445,98 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!1 &2258537583247415332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3893654745598052591}
+  - component: {fileID: 3849071226628660882}
+  - component: {fileID: 6108405465973253551}
+  - component: {fileID: 4018925133405018937}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3893654745598052591
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2258537583247415332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3757256010701225454}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 118.87047, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3849071226628660882
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2258537583247415332}
+  m_CullTransparentMesh: 0
+--- !u!114 &6108405465973253551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2258537583247415332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 45
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 45
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!114 &4018925133405018937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2258537583247415332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1741964061, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 2
+  m_VerticalFit: 2
 --- !u!1 &2285641471714936115
 GameObject:
   m_ObjectHideFlags: 0
@@ -5873,7 +5888,6 @@ GameObject:
   - component: {fileID: 2134387592556771167}
   - component: {fileID: 4023013789248153451}
   - component: {fileID: 1271819898921195025}
-  - component: {fileID: 4526943714544864988}
   m_Layer: 5
   m_Name: Pass
   m_TagString: Untagged
@@ -5895,10 +5909,10 @@ RectTransform:
   m_Father: {fileID: 8754150109908458270}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 467.5, y: -40}
+  m_SizeDelta: {x: 241.6, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4023013789248153451
 CanvasRenderer:
@@ -5933,33 +5947,13 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 3
     m_MaxSize: 35
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u904E\u95DC?"
---- !u!114 &4526943714544864988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2588995534857453423}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: 200
-  m_MinHeight: -1
-  m_PreferredWidth: 200
-  m_PreferredHeight: -1
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 0
 --- !u!1 &2644841317912520902
 GameObject:
   m_ObjectHideFlags: 0
@@ -5994,7 +5988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0000006326373, y: -0.00002800358}
+  m_AnchoredPosition: {x: 0.0000006326373, y: 0.000032960932}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &8077609267854105992
@@ -6111,7 +6105,6 @@ GameObject:
   - component: {fileID: 8727039111297737544}
   - component: {fileID: 7484107966676140485}
   - component: {fileID: 1349181990862093603}
-  - component: {fileID: 6217276195513792999}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -6217,29 +6210,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6217276195513792999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2705813493326044274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 0
-  m_Spacing: 0
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 1
-  m_ChildControlHeight: 1
 --- !u!1 &2749772217181604950
 GameObject:
   m_ObjectHideFlags: 0
@@ -7997,7 +7967,6 @@ GameObject:
   - component: {fileID: 8842158801881017957}
   - component: {fileID: 6514858954040054964}
   - component: {fileID: 4824049591138102454}
-  - component: {fileID: 4842028915338938946}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -8019,10 +7988,10 @@ RectTransform:
   m_Father: {fileID: 8754150109908458270}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: -40}
+  m_SizeDelta: {x: 346.68823, y: 80}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &6514858954040054964
 CanvasRenderer:
@@ -8057,33 +8026,13 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 3
     m_MaxSize: 35
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u95DC\u5361"
---- !u!114 &4842028915338938946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4105166866902958298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: 200
-  m_MinHeight: -1
-  m_PreferredWidth: 200
-  m_PreferredHeight: -1
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 0
 --- !u!1 &4205597004578616815
 GameObject:
   m_ObjectHideFlags: 0
@@ -8295,7 +8244,6 @@ GameObject:
   - component: {fileID: 1603078230338870757}
   - component: {fileID: 5413618433365128846}
   - component: {fileID: 4203614810964615804}
-  - component: {fileID: 6860605106950899408}
   m_Layer: 5
   m_Name: Data
   m_TagString: Untagged
@@ -8319,10 +8267,10 @@ RectTransform:
   m_Father: {fileID: 5137242315955609127}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 788.3334, y: -44.2}
+  m_SizeDelta: {x: 283.33334, y: 88.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3941532479182539227
 CanvasRenderer:
@@ -8366,7 +8314,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5087816361478112150}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -8426,163 +8374,10 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5087816361478112150}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0.5
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &6860605106950899408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5087816361478112150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fsm:
-    dataVersion: 2
-    usedInTemplate: {fileID: 0}
-    name: FSM
-    startState: State 1
-    states:
-    - name: State 1
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 50
-        y: 100
-        width: 100
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames: []
-        customNames: []
-        actionEnabled: 
-        actionIsOpen: 
-        actionStartIndex: 
-        actionHashCodes: 
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams: []
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 
-        arrayParamSizes: 
-        arrayParamTypes: []
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 
-        paramName: []
-        paramDataPos: 
-        paramByteDataSize: 
-    events: []
-    globalTransitions: []
-    variables:
-      floatVariables: []
-      intVariables: []
-      boolVariables: []
-      stringVariables:
-      - useVariable: 1
-        name: Fsm
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: LessonSelect
-      vector2Variables: []
-      vector3Variables: []
-      colorVariables: []
-      rectVariables: []
-      quaternionVariables: []
-      gameObjectVariables:
-      - useVariable: 1
-        name: Obj_SendTarget
-        tooltip: 
-        showInInspector: 1
-        networkSync: 0
-        value: {fileID: 8782202809183547393}
-      - useVariable: 1
-        name: Owner
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: {fileID: 0}
-      objectVariables: []
-      materialVariables: []
-      textureVariables: []
-      arrayVariables: []
-      enumVariables: []
-      categories:
-      - 
-      variableCategoryIDs: 000000000000000000000000
-    description: 
-    docUrl: 
-    showStateLabel: 0
-    maxLoopCount: 0
-    watermark: 
-    password: 
-    locked: 0
-    manualUpdate: 0
-    keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
-    ExposedEvents: []
-    RestartOnEnable: 1
-    EnableDebugFlow: 0
-    EnableBreakpoints: 1
-    editorFlags: 3
-    activeStateName: 
-    mouseEvents: 0
-    handleLevelLoaded: 0
-    handleTriggerEnter2D: 0
-    handleTriggerExit2D: 0
-    handleTriggerStay2D: 0
-    handleCollisionEnter2D: 0
-    handleCollisionExit2D: 0
-    handleCollisionStay2D: 0
-    handleTriggerEnter: 0
-    handleTriggerExit: 0
-    handleTriggerStay: 0
-    handleCollisionEnter: 0
-    handleCollisionExit: 0
-    handleCollisionStay: 0
-    handleParticleCollision: 0
-    handleControllerColliderHit: 0
-    handleJointBreak: 0
-    handleJointBreak2D: 0
-    handleOnGUI: 0
-    handleFixedUpdate: 0
-    handleLateUpdate: 0
-    handleApplicationEvents: 0
-    handleUiEvents: 0
-    handleLegacyNetworking: 0
-    handleAnimatorMove: 0
-    handleAnimatorIK: 0
-  fsmTemplate: {fileID: 11400000, guid: f51e287c76ee9134bb29b4662090c47c, type: 2}
-  eventHandlerComponentsAdded: 1
 --- !u!1 &5195869855617771467
 GameObject:
   m_ObjectHideFlags: 0
@@ -11437,7 +11232,6 @@ GameObject:
   - component: {fileID: 3840854195156293713}
   - component: {fileID: 7956637189240993645}
   - component: {fileID: 5289750614528946116}
-  - component: {fileID: 7639480326138254483}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -11459,10 +11253,10 @@ RectTransform:
   m_Father: {fileID: 8754150109908458270}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 800.4, y: -40}
+  m_SizeDelta: {x: 424.2, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7956637189240993645
 CanvasRenderer:
@@ -11497,33 +11291,13 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 3
     m_MaxSize: 35
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u672A\u904E\u95DC\u539F\u56E0"
---- !u!114 &7639480326138254483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8497580683803009070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: -1
-  m_PreferredHeight: -1
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 0
 --- !u!1 &8533689277329873717
 GameObject:
   m_ObjectHideFlags: 0
@@ -16559,7 +16333,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 66
-        y: 180
+        y: 164
         width: 100
         height: 16
       isBreakpoint: 0
@@ -16666,7 +16440,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 246
-        y: 167
+        y: 151
         width: 100
         height: 32
       isBreakpoint: 0
@@ -16851,7 +16625,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 243
-        y: 242
+        y: 226
         width: 100
         height: 48
       isBreakpoint: 0
@@ -17037,7 +16811,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 434
-        y: 165
+        y: 149
         width: 100
         height: 48
       isBreakpoint: 0
@@ -17458,7 +17232,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 437
-        y: 251
+        y: 235
         width: 102
         height: 32
       isBreakpoint: 0
@@ -17636,7 +17410,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 247
-        y: 383
+        y: 367
         width: 100
         height: 16
       isBreakpoint: 0
@@ -17979,8 +17753,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 219
-        y: 465
+        x: 217
+        y: 477
         width: 158.8
         height: 64
       isBreakpoint: 0
@@ -18290,7 +18064,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 444
-        y: 304
+        y: 288
         width: 100
         height: 32
       isBreakpoint: 0
@@ -18370,8 +18144,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 249
-        y: 606
+        x: 247
+        y: 618
         width: 100
         height: 48
       isBreakpoint: 0
@@ -18745,8 +18519,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 62.21875
-        y: 593.1094
+        x: 60.21875
+        y: 605.1094
         width: 100
         height: 48
       isBreakpoint: 0
@@ -18907,8 +18681,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 450.53125
-        y: 598.72656
+        x: 448.53125
+        y: 610.72656
         width: 100
         height: 48
       isBreakpoint: 0
@@ -19069,8 +18843,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 453.79688
-        y: 679.39844
+        x: 451.79688
+        y: 691.39844
         width: 100
         height: 32
       isBreakpoint: 0
@@ -19173,8 +18947,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 62.382812
-        y: 667.2578
+        x: 60.382812
+        y: 679.2578
         width: 100
         height: 32
       isBreakpoint: 0
@@ -19277,8 +19051,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 623.5078
-        y: 149.15625
+        x: 642.5078
+        y: 116.15625
         width: 100
         height: 80
       isBreakpoint: 0
@@ -19543,8 +19317,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 909
-        y: 109
+        x: 790
+        y: 113
         width: 103.600006
         height: 32
       isBreakpoint: 0
@@ -19710,8 +19484,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1204.0156
-        y: 186
+        x: 1078.0156
+        y: 188
         width: 100
         height: 16
       isBreakpoint: 0
@@ -19817,8 +19591,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 911
-        y: 187
+        x: 793
+        y: 200
         width: 102
         height: 32
       isBreakpoint: 0
@@ -20023,8 +19797,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1061
-        y: 167
+        x: 935
+        y: 169
         width: 100
         height: 32
       isBreakpoint: 0
@@ -20237,7 +20011,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 243
-        y: 313
+        y: 297
         width: 100
         height: 48
       isBreakpoint: 0
@@ -20352,7 +20126,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 85
-        y: 327
+        y: 311
         width: 100
         height: 16
       isBreakpoint: 0
@@ -20875,7 +20649,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 223.6875
+        x: 399.6875
         y: 246.80469
         width: 100
         height: 16
@@ -20996,8 +20770,8 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 217
-        y: 433
+        x: 243
+        y: 435
         width: 100
         height: 32
       isBreakpoint: 0
@@ -21275,8 +21049,8 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 220
-        y: 503
+        x: 246
+        y: 505
         width: 100
         height: 48
       isBreakpoint: 0
@@ -21461,8 +21235,8 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 54.023438
-        y: 509.4297
+        x: 80.02344
+        y: 511.4297
         width: 100
         height: 32
       isBreakpoint: 0
@@ -21741,8 +21515,8 @@ MonoBehaviour:
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 218
-        y: 355
+        x: 244
+        y: 357
         width: 102
         height: 32
       isBreakpoint: 0
@@ -21825,12 +21599,12 @@ MonoBehaviour:
         paramDataPos: 0000000001000000000000000000000000000000
         paramByteDataSize: 0000000000000000010000000000000000000000
     - name: "\u547C\u53EB\u6309\u9215\u6574\u7406"
-      description: "#\u62FF\u6389\u6700\u5F8C\u4E00\u500BLine\n#\u547C\u53EB\u95DC\u5361\u901A\u95DC\u6AA2\u67E5"
+      description: "#\u62FF\u6389\u6700\u5F8C\u4E00\u500BLine"
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 213.96875
-        y: 608.16406
+        x: 50.96875
+        y: 596.16406
         width: 120.8
         height: 16
       isBreakpoint: 0
@@ -21841,7 +21615,6 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetChild
         - HutongGames.PlayMaker.Actions.ActivateGameObject
-        - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SetEventData
         - HutongGames.PlayMaker.Actions.SendEvent
         - HutongGames.PlayMaker.Actions.SetEventData
@@ -21853,11 +21626,10 @@ MonoBehaviour:
         - 
         - 
         - 
-        - 
-        actionEnabled: 01010101010101
-        actionIsOpen: 00000100000000
-        actionStartIndex: 0000000004000000090000000d0000001a0000001e0000002b000000
-        actionHashCodes: 184b5704b2cf10005e69bb0427ffbc035e69bb0427ffbc035e69bb04
+        actionEnabled: 010101010101
+        actionIsOpen: 000001000000
+        actionStartIndex: 000000000400000009000000160000001a00000027000000
+        actionHashCodes: 184b5704b2cf100027ffbc035e69bb0427ffbc035e69bb04
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -21899,38 +21671,6 @@ MonoBehaviour:
         functionCallParams: []
         fsmTemplateControlParams: []
         fsmEventTargetParams:
-        - target: 2
-          excludeSelf:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          gameObject:
-            ownerOption: 0
-            gameObject:
-              useVariable: 1
-              name: 
-              tooltip: 
-              showInInspector: 0
-              networkSync: 0
-              value: {fileID: 0}
-          fsmName:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: CheckPass
-          sendToChildren:
-            useVariable: 0
-            name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: 0
-          fsmComponent: {fileID: 0}
         - target: 2
           excludeSelf:
             useVariable: 0
@@ -22069,12 +21809,6 @@ MonoBehaviour:
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
         - useVariable: 1
           name: 
           tooltip: 
@@ -22214,14 +21948,13 @@ MonoBehaviour:
           value: {x: 0, y: 0, z: 0, w: 0}
         stringParams:
         - Process
-        - Process
         - Process2
-        byteData: 0000000000
+        byteData: 00000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000001300000014000000110000001100000001000000010000001f000000170000000f0000000100000013000000100000000f0000001200000011000000250000001c0000001e00000023000000190000002000000021000000180000001f000000170000000f0000000100000013000000100000000f0000001200000011000000250000001c0000001e00000023000000190000002000000021000000180000001f000000170000000f00000001000000
+        paramDataType: 14000000120000001200000013000000140000001100000011000000010000000100000013000000100000000f0000001200000011000000250000001c0000001e00000023000000190000002000000021000000180000001f000000170000000f0000000100000013000000100000000f0000001200000011000000250000001c0000001e00000023000000190000002000000021000000180000001f000000170000000f00000001000000
         paramName:
         - gameObject
         - childName
@@ -22232,10 +21965,6 @@ MonoBehaviour:
         - recursive
         - resetOnExit
         - everyFrame
-        - eventTarget
-        - sendEvent
-        - delay
-        - everyFrame
         - setGameObjectData
         - setIntData
         - setFloatData
@@ -22270,15 +21999,15 @@ MonoBehaviour:
         - sendEvent
         - delay
         - everyFrame
-        paramDataPos: 0000000000000000010000000000000001000000000000000100000000000000010000000000000000000000000000000200000001000000000000000100000002000000020000000000000000000000000000000000000000000000000000000100000002000000010000000100000002000000030000000200000001000000030000000300000003000000010000000100000001000000010000000100000003000000040000000500000002000000020000000400000004000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000001000000010000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 00000000000000000100000000000000010000000000000001000000000000000100000001000000000000000000000002000000020000000000000000000000000000000000000000000000000000000100000002000000000000000000000001000000020000000200000001000000020000000300000003000000010000000100000001000000010000000100000003000000040000000500000001000000010000000300000003000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: "\u6A21\u64EC\u6309\u4E0B\u7B2C\u4E00\u500B"
       description: 
       colorIndex: 1
       position:
         serializedVersion: 2
-        x: 197
-        y: 740.6406
+        x: 365
+        y: 741.6406
         width: 158.8
         height: 16
       isBreakpoint: 0
@@ -22452,7 +22181,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 667
+        x: 843
         y: 483
         width: 100
         height: 48
@@ -22706,7 +22435,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 664.96875
+        x: 840.96875
         y: 582.41406
         width: 104.4
         height: 32
@@ -22873,7 +22602,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 663
+        x: 839
         y: 657
         width: 100
         height: 32
@@ -23283,21 +23012,29 @@ MonoBehaviour:
         paramDataPos: 000000000000000000000000010000000000000000000000010000000000000002000000010000000000000000000000010000000300000002000000040000000300000001000000020000000300000004000000050000000600000007000000010000000800000001000000090000000200000002000000040000000500000000000000020000000300000004000000010000000a000000020000000b00000005000000060000000000000006000000010000000200000007000000
         paramByteDataSize: 0000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000
     - name: "\u958B\u555FLesson\u4ECB\u9762"
-      description: "#\u53D6\u5F97\u6A21\u5F0F"
+      description: "#\u53D6\u5F97\u6A21\u5F0F\n#\u5224\u65B7\u662F\u4E0D\u662F\u6E2C\u9A57"
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 445.5
-        y: 294.6328
+        x: 622.5
+        y: 248.63281
         width: 124.4
-        height: 32
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
+          name: Y
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: "\u547C\u53EB\u901A\u95DC\u6AA2\u67E5"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: N
+          isSystemEvent: 0
           isGlobal: 0
         toState: "\u547C\u53EB3D\u57F7\u884C\u6A21\u5F0F"
         linkStyle: 0
@@ -23307,13 +23044,15 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetEventInfo
         - HutongGames.PlayMaker.Actions.AnimatorPlay
+        - HutongGames.PlayMaker.Actions.StringCompare
         customNames:
         - 
         - 
-        actionEnabled: 0101
-        actionIsOpen: 0000
-        actionStartIndex: 000000000f000000
-        actionHashCodes: d9ade603c34b4105
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 000001
+        actionStartIndex: 000000000f00000014000000
+        actionHashCodes: d9ade603c34b41050c0e5502
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -23362,6 +23101,18 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: On
+        - useVariable: 1
+          name: String/Mode
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Test
         fsmObjectParams:
         - useVariable: 1
           name: 
@@ -23420,6 +23171,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmVector2Params:
         - useVariable: 1
           name: 
@@ -23460,13 +23217,15 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: {x: 0, y: 0, z: 0, w: 0}
-        stringParams: []
-        byteData: 00
+        stringParams:
+        - Y
+        - N
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e00000023000000200000002100000019000000180000001400000012000000100000000f00000001000000
+        paramDataType: 130000001200000011000000100000000f000000250000001c00000012000000130000001e00000023000000200000002100000019000000180000001400000012000000100000000f00000001000000120000001200000017000000170000001100000001000000
         paramName:
         - sentByGameObject
         - fsmName
@@ -23488,14 +23247,20 @@ MonoBehaviour:
         - layer
         - normalizedTime
         - everyFrame
-        paramDataPos: 0000000000000000000000000000000000000000000000000000000001000000010000000000000000000000000000000100000000000000020000000000000002000000010000000100000000000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        - stringVariable
+        - compareTo
+        - equalEvent
+        - notEqualEvent
+        - storeResult
+        - everyFrame
+        paramDataPos: 0000000000000000000000000000000000000000000000000000000001000000010000000000000000000000000000000100000000000000020000000000000002000000010000000100000000000000030000000400000000000000010000000100000001000000
+        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
     - name: "\u547C\u53EBLessonSelect"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 828
+        x: 996
         y: 432
         width: 140.4
         height: 32
@@ -23600,7 +23365,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1005.89844
+        x: 1181.8984
         y: 446.8125
         width: 100
         height: 32
@@ -23836,7 +23601,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 1144.0469
+        x: 1320.0469
         y: 463.9922
         width: 100
         height: 16
@@ -23943,8 +23708,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 433.875
-        y: 762.46875
+        x: 616.875
+        y: 756.46875
         width: 130
         height: 48
       isBreakpoint: 0
@@ -24142,8 +23907,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 437.875
-        y: 835.75
+        x: 620.875
+        y: 829.75
         width: 114
         height: 16
       isBreakpoint: 0
@@ -24239,8 +24004,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 625.125
-        y: 115.19531
+        x: 802.125
+        y: 113.19531
         width: 188.4
         height: 32
       isBreakpoint: 0
@@ -24567,8 +24332,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 673.2422
-        y: 192.94531
+        x: 854.2422
+        y: 194.94531
         width: 100
         height: 32
       isBreakpoint: 0
@@ -24672,7 +24437,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 672.25
+        x: 848.25
         y: 347.53906
         width: 100
         height: 16
@@ -24751,7 +24516,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 451.5
+        x: 627.5
         y: 425.6328
         width: 120.4
         height: 16
@@ -24769,7 +24534,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 000001
+        actionIsOpen: 010101
         actionStartIndex: 000000000d00000011000000
         actionHashCodes: 27ffbc035e69bb0488611604
         unityObjectParams: []
@@ -24953,8 +24718,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 443.875
-        y: 889.46875
+        x: 626.875
+        y: 883.46875
         width: 102
         height: 16
       isBreakpoint: 0
@@ -25151,7 +24916,7 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 673.2031
+        x: 849.2031
         y: 293.95312
         width: 100
         height: 32
@@ -25364,7 +25129,7 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 661
+        x: 837
         y: 742
         width: 105.2
         height: 32
@@ -25582,8 +25347,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 449.96094
-        y: 635.84375
+        x: 632.96094
+        y: 629.84375
         width: 101.6
         height: 32
       isBreakpoint: 0
@@ -25649,6 +25414,111 @@ MonoBehaviour:
         - realTime
         paramDataPos: 000000000000000000000000
         paramByteDataSize: 000000000000000001000000
+    - name: "\u547C\u53EB\u901A\u95DC\u6AA2\u67E5"
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 480.5
+        y: 334
+        width: 102
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: "\u547C\u53EB3D\u57F7\u884C\u6A21\u5F0F"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SendEvent
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 5e69bb04
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams:
+        - target: 2
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 0
+            gameObject:
+              useVariable: 1
+              name: 
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: CheckPass
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - Process
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1f000000170000000f00000001000000
+        paramName:
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        paramDataPos: 00000000000000000000000000000000
+        paramByteDataSize: 00000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -26145,7 +26015,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 1
             networkSync: 0
-            value: {fileID: 1482181974579679549}
+            value: {fileID: 2258537583247415332}
         - ownerOption: 1
           gameObject:
             useVariable: 1
@@ -26656,7 +26526,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: {fileID: 1482181974579679549}
+        value: {fileID: 2258537583247415332}
       objectVariables: []
       materialVariables: []
       textureVariables: []
@@ -30236,6 +30106,9 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 1
     - name: Y
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: Loop
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions:
@@ -37227,9 +37100,11 @@ GameObject:
   m_Component:
   - component: {fileID: 3757256010701225454}
   - component: {fileID: 3700459397484780582}
-  - component: {fileID: 4883764431229299460}
   - component: {fileID: 8518793148215352312}
   - component: {fileID: 8846942809396606792}
+  - component: {fileID: 8199925331974185893}
+  - component: {fileID: 6188732244520616376}
+  - component: {fileID: 5379742536047783150}
   m_Layer: 5
   m_Name: Message
   m_TagString: Untagged
@@ -37248,14 +37123,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 20179561553210522}
+  - {fileID: 3893654745598052591}
   m_Father: {fileID: 8782202809183547397}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -300}
-  m_SizeDelta: {x: 519.63, y: 70}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3700459397484780582
 CanvasRenderer:
@@ -37265,33 +37140,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9026022893083325879}
   m_CullTransparentMesh: 0
---- !u!114 &4883764431229299460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9026022893083325879}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.7921569}
-  m_RaycastTarget: 0
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
 --- !u!95 &8518793148215352312
 Animator:
   serializedVersion: 3
@@ -37323,3 +37171,67 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &8199925331974185893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9026022893083325879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.8862745}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!114 &6188732244520616376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9026022893083325879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 30
+    m_Right: 30
+    m_Top: 15
+    m_Bottom: 15
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+--- !u!114 &5379742536047783150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9026022893083325879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1741964061, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 2
+  m_VerticalFit: 2
