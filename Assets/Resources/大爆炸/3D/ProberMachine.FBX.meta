@@ -134,6 +134,11 @@ ModelImporter:
     2100096: Color50
     2100098: Color94
     2100100: Color247
+    2100102: LB_B
+    2100104: LB_gold
+    2100106: probecard_f
+    2100108: probecard_b
+    2100110: Color87
     2300000: Brep_35
     2300002: DP
     2300004: DP_Ducking01
