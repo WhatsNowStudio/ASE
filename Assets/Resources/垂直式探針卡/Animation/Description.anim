@@ -19,7 +19,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 0, z: 0}
+        value: {x: 90, y: 0, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -505,7 +505,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.03901948, y: -0.0032509118, z: -0.04343887}
+        value: {x: -0.03901948, y: 0.109, z: -0.04343887}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -3593,7 +3593,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: 90
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -5129,7 +5129,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.0032509118
+        value: 0.109
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -10740,8 +10740,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: "PCB+Card+\u91DD"
+    attribute: m_LocalEulerAngles.z
+    path: "PCB+Card+\u91DD/\u63A2\u91DD\u5361+\u63A2\u91DD/\u63A2\u91DD\u7D4402/\u63A2\u91DD\u7D44_\u4E3B\u89D2/\u63A2\u91DD_\u5916\u6BBC"
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10751,7 +10751,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: "PCB+Card+\u91DD"
+    path: "PCB+Card+\u91DD/\u63A2\u91DD\u5361+\u63A2\u91DD/\u63A2\u91DD\u7D4402/\u63A2\u91DD\u7D44_\u4E3B\u89D2/\u63A2\u91DD_\u5916\u6BBC"
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10760,8 +10760,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: "PCB+Card+\u91DD"
+    attribute: m_LocalEulerAngles.x
+    path: "PCB+Card+\u91DD/\u63A2\u91DD\u5361+\u63A2\u91DD/\u63A2\u91DD\u7D4402/\u63A2\u91DD\u7D44_\u4E3B\u89D2/\u63A2\u91DD_\u5916\u6BBC"
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10801,7 +10801,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: "PCB+Card+\u91DD/\u63A2\u91DD\u5361+\u63A2\u91DD/\u63A2\u91DD\u7D4402/\u63A2\u91DD\u7D44_\u4E3B\u89D2/\u63A2\u91DD_\u5916\u6BBC"
+    path: "PCB+Card+\u91DD"
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10811,7 +10811,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: "PCB+Card+\u91DD/\u63A2\u91DD\u5361+\u63A2\u91DD/\u63A2\u91DD\u7D4402/\u63A2\u91DD\u7D44_\u4E3B\u89D2/\u63A2\u91DD_\u5916\u6BBC"
+    path: "PCB+Card+\u91DD"
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10821,7 +10821,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: "PCB+Card+\u91DD/\u63A2\u91DD\u5361+\u63A2\u91DD/\u63A2\u91DD\u7D4402/\u63A2\u91DD\u7D44_\u4E3B\u89D2/\u63A2\u91DD_\u5916\u6BBC"
+    path: "PCB+Card+\u91DD"
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 1
