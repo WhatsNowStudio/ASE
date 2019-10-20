@@ -2850,7 +2850,7 @@ RectTransform:
   - {fileID: 7279826697648825074}
   - {fileID: 163964745}
   m_Father: {fileID: 8782202809183547397}
-  m_RootOrder: 3
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5859,10 +5859,10 @@ RectTransform:
   m_Father: {fileID: 5137242315955609127}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 595.625, y: -44.2}
-  m_SizeDelta: {x: 206.25, y: 88.4}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4161329674457961939
 CanvasRenderer:
@@ -7278,10 +7278,10 @@ RectTransform:
   m_Father: {fileID: 5137242315955609127}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 133.125, y: -44.2}
-  m_SizeDelta: {x: 206.25, y: 88.4}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8374086776143039290
 CanvasRenderer:
@@ -9051,7 +9051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 0.7254902}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -11684,7 +11684,7 @@ RectTransform:
   - {fileID: 2522745381004952116}
   - {fileID: 1200071961523565939}
   m_Father: {fileID: 8782202809183547397}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12119,10 +12119,10 @@ RectTransform:
   m_Father: {fileID: 5137242315955609127}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 826.875, y: -44.2}
-  m_SizeDelta: {x: 206.25, y: 88.4}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3941532479182539227
 CanvasRenderer:
@@ -13526,10 +13526,10 @@ RectTransform:
   m_Father: {fileID: 5137242315955609127}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 364.375, y: -44.2}
-  m_SizeDelta: {x: 206.25, y: 88.4}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5662630705771936423
 CanvasRenderer:
@@ -13753,7 +13753,7 @@ RectTransform:
   - {fileID: 7006534906535186037}
   - {fileID: 6503784931084207956}
   m_Father: {fileID: 8782202809183547397}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -16935,7 +16935,7 @@ RectTransform:
   - {fileID: 8782202808137270437}
   - {fileID: 8782202810170102026}
   m_Father: {fileID: 8782202809183547397}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -17256,11 +17256,11 @@ RectTransform:
   - {fileID: 8782202808580251470}
   - {fileID: 1829079460970947417}
   - {fileID: 6720107684015480393}
-  - {fileID: 1261207523}
   - {fileID: 6658576761636103972}
   - {fileID: 8782202808073535399}
   - {fileID: 550828560131967547}
   - {fileID: 3757256010701225454}
+  - {fileID: 1261207523}
   - {fileID: 1571739121}
   - {fileID: 8768591812108428821}
   - {fileID: 8372545132518897381}
@@ -34705,6 +34705,7 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.UiInputFieldSetText
         - HutongGames.PlayMaker.Actions.ActivateGameObject
+        - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.GetEventInfo
         - HutongGames.PlayMaker.Actions.UiTextSetText
         - HutongGames.PlayMaker.Actions.UiOnPointerClickEvent
@@ -34716,10 +34717,11 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 010101010101
-        actionIsOpen: 000000000101
-        actionStartIndex: 000000000400000009000000180000001c0000001f000000
-        actionHashCodes: 09fbab04b2cf1000d9ade60309fbab04c6c21405c6c21405
+        - 
+        actionEnabled: 01010101010101
+        actionIsOpen: 00010100000101
+        actionStartIndex: 0000000004000000090000000e0000001d0000002100000024000000
+        actionHashCodes: 09fbab04b2cf1000b2cf1000d9ade60309fbab04c6c21405c6c21405
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
@@ -34743,6 +34745,14 @@ MonoBehaviour:
             showInInspector: 1
             networkSync: 0
             value: {fileID: 8848518325820200176}
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: Obj/Input/All
+            tooltip: 
+            showInInspector: 1
+            networkSync: 0
+            value: {fileID: 2749772217181604950}
         - ownerOption: 1
           gameObject:
             useVariable: 1
@@ -34921,6 +34931,18 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
           value: 1
         - useVariable: 0
           name: 
@@ -34983,15 +35005,20 @@ MonoBehaviour:
         stringParams:
         - Go
         - Done
-        byteData: 00000000
+        byteData: 000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001200000011000000010000001400000011000000110000000100000001000000130000001200000011000000100000000f000000250000001c00000012000000130000001e00000023000000200000002100000019000000180000001400000012000000110000000100000017000000140000001f00000017000000140000001f000000
+        paramDataType: 1400000012000000110000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000130000001200000011000000100000000f000000250000001c00000012000000130000001e00000023000000200000002100000019000000180000001400000012000000110000000100000017000000140000001f00000017000000140000001f000000
         paramName:
         - gameObject
         - text
+        - resetOnExit
+        - everyFrame
+        - gameObject
+        - activate
+        - recursive
         - resetOnExit
         - everyFrame
         - gameObject
@@ -35024,8 +35051,8 @@ MonoBehaviour:
         - onPointerClickEvent
         - gameObject
         - eventTarget
-        paramDataPos: 00000000000000000000000000000000010000000100000002000000010000000200000000000000010000000300000000000000000000000000000000000000020000000100000000000000000000000000000001000000000000000200000002000000030000000400000003000000000000000300000000000000010000000400000001000000
-        paramByteDataSize: 00000000000000000000000001000000000000000000000000000000010000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000
+        paramDataPos: 000000000000000000000000000000000100000001000000020000000100000002000000020000000300000004000000030000000400000000000000010000000500000000000000000000000000000000000000020000000100000000000000000000000000000001000000000000000200000003000000030000000600000005000000000000000400000000000000010000000500000001000000
+        paramByteDataSize: 000000000000000000000000010000000000000000000000000000000100000001000000000000000000000000000000010000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000
     - name: "\u8B80\u53D6\u8CC7\u6599\u4E26\u9001\u51FA"
       description: "#\u6C92\u8CC7\u6599\u5C31\u76F4\u63A5\u95DC\u9589"
       colorIndex: 0
@@ -35418,7 +35445,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 000001
+        actionIsOpen: 000101
         actionStartIndex: 000000000500000013000000
         actionHashCodes: c34b4105c6a348021bcdca04
         unityObjectParams: []
@@ -41514,7 +41541,7 @@ RectTransform:
   m_Children:
   - {fileID: 3893654745598052591}
   m_Father: {fileID: 8782202809183547397}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
