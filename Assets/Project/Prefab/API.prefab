@@ -400,14 +400,13 @@ MonoBehaviour:
             \   \"1\": {\n      \"Title\": \"\u8AB2\u7A0B\u4E8C\uFF1A\u64CD\u4F5C\u524D\u6CE8\u610F\u4E8B\u9805\",\n
             \     \"Content\": \"\u5B78\u7FD2\u6A5F\u53F0\u4F5C\u696D\u524D\u7684\u4E00\u7CFB\u5217\u6AA2\u67E5\",\n
             \     \"HasTest?\": \"Y\",\n      \"Chapter\": {\n        \"0\": {\n          \"Title\":
-            \"Setup\u5206\u89E3\u5716(\u5F85\u88FD\u4F5C)\",\n          \"Prefab\":
-            \"Setup\u5206\u89E3\u5716(\u5F85\u88FD\u4F5C)\"\n        },\n        \"1\":
-            {\n          \"Title\": \"Probe Card\u6AA2\u67E5\",\n          \"Prefab\":
-            \"ProbeCard\u6AA2\u67E5\"\n        },\n        \"2\": {\n          \"Title\":
-            \"\u975C\u96FB\u624B\u74B0\",\n          \"Prefab\": \"\u975C\u96FB\u624B\u74B0\"\n
-            \       },\n        \"3\": {\n          \"Title\": \"\u4FDD\u8B77\u84CB\",\n
-            \         \"Prefab\": \"\u4FDD\u8B77\u84CB\"\n        },\n        \"4\":
-            {\n          \"Title\": \"\u76EE\u8996\u63A2\u91DD\u5916\u89C0(\u5F85\u88FD\u4F5C)\",\n
+            \"Setup\u5206\u89E3\u5716\",\n          \"Prefab\": \"Setup\u5206\u89E3\u5716\"\n
+            \       },\n        \"1\": {\n          \"Title\": \"Probe Card\u6AA2\u67E5\",\n
+            \         \"Prefab\": \"ProbeCard\u6AA2\u67E5\"\n        },\n        \"2\":
+            {\n          \"Title\": \"\u975C\u96FB\u624B\u74B0\",\n          \"Prefab\":
+            \"\u975C\u96FB\u624B\u74B0\"\n        },\n        \"3\": {\n          \"Title\":
+            \"\u4FDD\u8B77\u84CB\",\n          \"Prefab\": \"\u4FDD\u8B77\u84CB\"\n
+            \       },\n        \"4\": {\n          \"Title\": \"\u76EE\u8996\u63A2\u91DD\u5916\u89C0(\u5F85\u88FD\u4F5C)\",\n
             \         \"Prefab\": \"UnderConstruction\"\n        },\n        \"5\":
             {\n          \"Title\": \"\u9676\u74F7\u88C2\u75D5\u8207\u87BA\u7D72\u5E73\u6574(\u5F85\u88FD\u4F5C)\",\n
             \         \"Prefab\": \"UnderConstruction\"\n        },\n        \"6\":
@@ -488,7 +487,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0

@@ -9,12 +9,18 @@ ModelImporter:
     100006: "\u975C\u96FB\u624B\u74B0_\u63D2\u982D"
     100008: ASE Hand
     100010: Sky001
+    100012: Object003
+    100014: Object004
+    100016: "\u975C\u96FB\u624B\u74B0"
     400000: ASE Man
     400002: //RootNode
     400004: "\u975C\u96FB\u624B\u74B0_\u63D2\u5EA7"
     400006: "\u975C\u96FB\u624B\u74B0_\u63D2\u982D"
     400008: ASE Hand
     400010: Sky001
+    400012: Object003
+    400014: Object004
+    400016: "\u975C\u96FB\u624B\u74B0"
     2100000: face
     2100002: white
     2100004: Gray
@@ -26,14 +32,23 @@ ModelImporter:
     2300002: "\u975C\u96FB\u624B\u74B0_\u63D2\u5EA7"
     2300004: "\u975C\u96FB\u624B\u74B0_\u63D2\u982D"
     2300006: ASE Hand
+    2300008: Object003
+    2300010: Object004
+    2300012: "\u975C\u96FB\u624B\u74B0"
     3300000: ASE Man
     3300002: "\u975C\u96FB\u624B\u74B0_\u63D2\u5EA7"
     3300004: "\u975C\u96FB\u624B\u74B0_\u63D2\u982D"
     3300006: ASE Hand
+    3300008: Object003
+    3300010: Object004
+    3300012: "\u975C\u96FB\u624B\u74B0"
     4300000: ASE Man
     4300002: "\u975C\u96FB\u624B\u74B0_\u63D2\u5EA7"
     4300004: "\u975C\u96FB\u624B\u74B0_\u63D2\u982D"
     4300006: ASE Hand
+    4300008: "\u975C\u96FB\u624B\u74B0"
+    4300010: Object003
+    4300012: Object004
     10800000: Sky001
   externalObjects: {}
   materials:

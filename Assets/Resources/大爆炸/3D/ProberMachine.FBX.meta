@@ -43,6 +43,26 @@ ModelImporter:
     100074: Tower_Screw01
     100076: "\u63A2\u91DD_Body"
     100078: "\u63A2\u91DD_\u5916\u6BBC"
+    100080: Machine_InsideBox_BOXonly
+    100082: UnName
+    100084: "C1-\u87BA\u7D72\u9396\u5B54"
+    100086: DockingTop
+    100088: DockingTop_I1-I4
+    100090: DP_G1-g2
+    100092: DP_H1-H2
+    100094: DP_J1-J3
+    100096: LB_G1-G2
+    100098: LB_I1-I4
+    100100: PIN
+    100102: PIN_Check1-3
+    100104: ProbeCard_b1-b2
+    100106: ProbeCard_d1-d4
+    100108: ProbeCardHolder_a1-a2
+    100110: ProbeCardHolder_b1-b2
+    100112: "ProbeCardHolder_\u51F9\u69FD"
+    100114: Tower_D1-D4
+    100116: Machine_Part
+    100118: "\u6A5F\u53F0\u9632\u975C\u96FB\u88DD\u7F6E"
     400000: Brep_35
     400002: DP
     400004: DP_Ducking01
@@ -83,6 +103,26 @@ ModelImporter:
     400074: Tower_Screw01
     400076: "\u63A2\u91DD_Body"
     400078: "\u63A2\u91DD_\u5916\u6BBC"
+    400080: Machine_InsideBox_BOXonly
+    400082: UnName
+    400084: "C1-\u87BA\u7D72\u9396\u5B54"
+    400086: DockingTop
+    400088: DockingTop_I1-I4
+    400090: DP_G1-g2
+    400092: DP_H1-H2
+    400094: DP_J1-J3
+    400096: LB_G1-G2
+    400098: LB_I1-I4
+    400100: PIN
+    400102: PIN_Check1-3
+    400104: ProbeCard_b1-b2
+    400106: ProbeCard_d1-d4
+    400108: ProbeCardHolder_a1-a2
+    400110: ProbeCardHolder_b1-b2
+    400112: "ProbeCardHolder_\u51F9\u69FD"
+    400114: Tower_D1-D4
+    400116: Machine_Part
+    400118: "\u6A5F\u53F0\u9632\u975C\u96FB\u88DD\u7F6E"
     2100000: Color22
     2100002: No Name
     2100004: Color35
@@ -139,6 +179,9 @@ ModelImporter:
     2100106: probecard_f
     2100108: probecard_b
     2100110: Color87
+    2100112: 24 - Default
+    2100114: face
+    2100116: Color100
     2300000: Brep_35
     2300002: DP
     2300004: DP_Ducking01
@@ -177,6 +220,26 @@ ModelImporter:
     2300070: Tower_Screw01
     2300072: "\u63A2\u91DD_Body"
     2300074: "\u63A2\u91DD_\u5916\u6BBC"
+    2300076: Machine_InsideBox_BOXonly
+    2300078: UnName
+    2300080: "C1-\u87BA\u7D72\u9396\u5B54"
+    2300082: DockingTop
+    2300084: DockingTop_I1-I4
+    2300086: DP_G1-g2
+    2300088: DP_H1-H2
+    2300090: DP_J1-J3
+    2300092: LB_G1-G2
+    2300094: LB_I1-I4
+    2300096: PIN
+    2300098: PIN_Check1-3
+    2300100: ProbeCard_b1-b2
+    2300102: ProbeCard_d1-d4
+    2300104: ProbeCardHolder_a1-a2
+    2300106: ProbeCardHolder_b1-b2
+    2300108: "ProbeCardHolder_\u51F9\u69FD"
+    2300110: Tower_D1-D4
+    2300112: Machine_Part
+    2300114: "\u6A5F\u53F0\u9632\u975C\u96FB\u88DD\u7F6E"
     3300000: Brep_35
     3300002: DP
     3300004: DP_Ducking01
@@ -215,6 +278,26 @@ ModelImporter:
     3300070: Tower_Screw01
     3300072: "\u63A2\u91DD_Body"
     3300074: "\u63A2\u91DD_\u5916\u6BBC"
+    3300076: Machine_InsideBox_BOXonly
+    3300078: UnName
+    3300080: "C1-\u87BA\u7D72\u9396\u5B54"
+    3300082: DockingTop
+    3300084: DockingTop_I1-I4
+    3300086: DP_G1-g2
+    3300088: DP_H1-H2
+    3300090: DP_J1-J3
+    3300092: LB_G1-G2
+    3300094: LB_I1-I4
+    3300096: PIN
+    3300098: PIN_Check1-3
+    3300100: ProbeCard_b1-b2
+    3300102: ProbeCard_d1-d4
+    3300104: ProbeCardHolder_a1-a2
+    3300106: ProbeCardHolder_b1-b2
+    3300108: "ProbeCardHolder_\u51F9\u69FD"
+    3300110: Tower_D1-D4
+    3300112: Machine_Part
+    3300114: "\u6A5F\u53F0\u9632\u975C\u96FB\u88DD\u7F6E"
     4300000: ProbeerCard_Holder
     4300002: LB
     4300004: Holder_Part04
@@ -253,6 +336,26 @@ ModelImporter:
     4300070: "HeadTest_Tower\u8F49\u8EF8"
     4300072: HeadTest_Body
     4300074: "HeadTest_\u5347\u964D\u677F"
+    4300076: Machine_InsideBox_BOXonly
+    4300078: UnName
+    4300080: PIN
+    4300082: "C1-\u87BA\u7D72\u9396\u5B54"
+    4300084: ProbeCardHolder_b1-b2
+    4300086: ProbeCardHolder_a1-a2
+    4300088: "ProbeCardHolder_\u51F9\u69FD"
+    4300090: ProbeCard_b1-b2
+    4300092: ProbeCard_d1-d4
+    4300094: Tower_D1-D4
+    4300096: DP_G1-g2
+    4300098: DP_H1-H2
+    4300100: DP_J1-J3
+    4300102: LB_G1-G2
+    4300104: LB_I1-I4
+    4300106: DockingTop
+    4300108: DockingTop_I1-I4
+    4300110: PIN_Check1-3
+    4300112: Machine_Part
+    4300114: "\u6A5F\u53F0\u9632\u975C\u96FB\u88DD\u7F6E"
     7400000: Take 001
     9500000: //RootNode
     10800000: Sky001
