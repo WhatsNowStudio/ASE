@@ -5027,7 +5027,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00008120042, y: 0}
+  m_AnchoredPosition: {x: 0.000012929486, y: 0}
   m_SizeDelta: {x: -156.7689, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &732210432942506956
@@ -5858,10 +5858,10 @@ RectTransform:
   m_Father: {fileID: 5137242315955609127}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 595.625, y: -44.2}
-  m_SizeDelta: {x: 206.25, y: 88.4}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4161329674457961939
 CanvasRenderer:
@@ -7257,10 +7257,10 @@ RectTransform:
   m_Father: {fileID: 5137242315955609127}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 133.125, y: -44.2}
-  m_SizeDelta: {x: 206.25, y: 88.4}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8374086776143039290
 CanvasRenderer:
@@ -12079,10 +12079,10 @@ RectTransform:
   m_Father: {fileID: 5137242315955609127}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 826.875, y: -44.2}
-  m_SizeDelta: {x: 206.25, y: 88.4}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3941532479182539227
 CanvasRenderer:
@@ -13488,10 +13488,10 @@ RectTransform:
   m_Father: {fileID: 5137242315955609127}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 364.375, y: -44.2}
-  m_SizeDelta: {x: 206.25, y: 88.4}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5662630705771936423
 CanvasRenderer:
@@ -32570,7 +32570,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: "\u5224\u65B7\u76EE\u524D\u6A21\u5F0F"
+        toState: "\u524D\u7F6E\u4F5C\u696D"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -32664,7 +32664,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: "\u5224\u65B7\u76EE\u524D\u6A21\u5F0F"
+        toState: "\u524D\u7F6E\u4F5C\u696D"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -32981,8 +32981,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 672.7344
-        y: 572
+        x: 409.73438
+        y: 595
         width: 104.4
         height: 32
       isBreakpoint: 0
@@ -32993,7 +32993,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: "Hah\u5C0B\u627E\u8A72\u95DC"
+        toState: "\u5224\u65B7\u76EE\u524D\u6A21\u5F0F"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -33009,7 +33009,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 00000001
+        actionIsOpen: 00010101
         actionStartIndex: 00000000080000001500000019000000
         actionHashCodes: 7370ae0527ffbc035e69bb047370ae05
         unityObjectParams: []
@@ -34544,8 +34544,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 456
-        y: 578
+        x: 568
+        y: 594
         width: 117.6
         height: 32
       isBreakpoint: 0
@@ -34556,7 +34556,7 @@ MonoBehaviour:
           name: Go
           isSystemEvent: 0
           isGlobal: 0
-        toState: "\u524D\u7F6E\u4F5C\u696D"
+        toState: "Hah\u5C0B\u627E\u8A72\u95DC"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
